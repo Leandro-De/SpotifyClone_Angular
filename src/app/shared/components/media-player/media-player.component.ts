@@ -9,8 +9,8 @@ export class MediaPlayerComponent implements OnInit {
 
   mockCover: any ={
     cover: '',
-    album: '',
-    name: ''
+    album: 'xd',
+    name: 'xasd'
   }
 
   constructor() { }
