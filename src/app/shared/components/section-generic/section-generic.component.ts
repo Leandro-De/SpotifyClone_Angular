@@ -7,8 +7,7 @@ import { TrackModel } from '@core/models/tracks.model';
   styleUrls: ['./section-generic.component.css']
 })
 export class SectionGenericComponent implements OnInit {
-
-  @Input() title: String = ''
+  @Input() title: string = ''
   @Input() mode: 'small' | 'big' = 'big'
   @Input() dataTracks: Array<TrackModel> = []
 
